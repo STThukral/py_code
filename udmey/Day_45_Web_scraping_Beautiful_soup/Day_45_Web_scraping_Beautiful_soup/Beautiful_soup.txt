@@ -1,0 +1,18 @@
+We nornamlly use API to get the informaiton form Different website and use it
+for our purpose.
+
+For the sites where we can't get access to API's we try to get underline html code 
+to get the information we need is called web-scraping using Beautiful Soup
+
+
+    
+
+
+we will use Empire's 100 Greatest Movies of All time
+
+
+
+BEAUTIFUL SOUP :-
+    GO TO https://www.crummy.com/software/BeautifulSoup/bs4/doc/ which will give informaiton about Beautiful Soup.
+
+Beautiful Soup is a Python library for pulling data out of HTML and XML files. It works with your favorite parser to provide idiomatic ways of navigating, searching, and modifying the parse tree. It commonly saves programmers hours or days of work.
