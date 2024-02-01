@@ -1,0 +1,30 @@
+Applicaiton programming Interface (API):-
+website carry bunch of data like NBA stats of various basket balls status.
+
+API is a set of commands,funcitons, protocols,
+and objects that programmers can use to create software
+or interact with and external system.
+
+API is barrier between our program and external system.
+we define some rules in out API to access the external system and get data from external system but under defined rules.
+
+
+Important expects of API :-
+need the to know the API end point , e.g. if we need crypto data we need 
+api.coinbase.com ( wehre coin base data is found)
+
+API request :- is to create the request to get data 
+
+International space station current loaction API :-
+end point for it is http://api.open-notify.org/iss-now.json
+
+Above will give output as :-
+{"timestamp": 1685380614, "iss_position": {"latitude": "-12.9506", "longitude": "104.3697"}, "message": "success"}
+
+Best example of Json is like ikea wordrobe .. its easy to flat pack and easy to transport with less spaces and indent, couple of symbol with key and value and can be transported very quickly.
+
+we can reconstruct it easily in dictionalry or any java script object.
+like putting together ikea furniture from flat
+
+
+API has parameters so that we can give input
