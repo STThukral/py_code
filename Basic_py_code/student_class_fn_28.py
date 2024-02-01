@@ -1,0 +1,13 @@
+print("class funciton where we are using class in a function")
+class student:
+    def __init__(self,name,major,gpa):
+        self.name = name
+        self.major = major
+        self.gpa = gpa
+
+    #class function
+    def on_honor_roll(self):
+        if self.gpa >= 3.5:
+            return True
+        else:
+            return False

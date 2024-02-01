@@ -1,0 +1,13 @@
+print("printing Triange")
+print("    /|")
+print("   / |")
+print("  /  |")
+print(" /   |")
+print("/____|")
+
+print("printing plus")
+print("  |")
+print("  |")
+print("-----")
+print("  |")
+print("  |")
