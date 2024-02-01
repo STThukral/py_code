@@ -1,0 +1,42 @@
+In this chapter we will be learning about command line, Web decorators and web development with flask (popular framework for creating website using python)
+
+We have already learnet to create website using HTML and CSS but that is just still infoamtion .With this we will learn the backend part as where calculations are done at beackend using python.
+
+We have heared about Full Stack for web development , which means
+
+FULL STACK = FRONT END  + BACK END
+
+FRONT END :- HTML (for structure) , CSS (for style) and JAVA SCRIPT (it gives it some interactivty)
+BACK  END :- it can be JAVA SCRIPT, JAVA, PYTHON or RUBY
+
+In addition to languages there are different Framwork to work FRONT and  BACKEND
+e.g :- Angular and react for frontend
+
+        node and Flask or jango for backend
+
+SO the above FRAMEWORK has got lots tools and functionality already built in when we are creating front end
+or Backend.
+
+IN this we are using Python as backend and we can choose whole bunch of framworks like Flask , jango , cherrypie and pyramid. MOst popular one are Flask (for small projects)and Django (for larger and commercial projects).
+
+Backend - Client + Server + Database ( they determine how backend will work)
+
+Client - User going for browser 
+Server - to receive request
+Database - Storing information related to website
+
+
+We will be using Flask to develope website , below link will help to learn flask quickly :-
+
+https://flask.palletsprojects.com/en/2.3.x/quickstart/
+
+
+set FLASK_APP=hello.py --on command prompt
+
+
+--------------------
+--------------------
+
+we will be working on command line or we say it shell.
+pwd,ls, cd , mkdir, touch , rm ,rmdir 
+can search more command from command prompt cheatsheet or windows command cheatsheet
