@@ -1,0 +1,15 @@
+Day 55 we will be learning about Adavnce Decorator, Rendering HTML, parsing URLs and Flask Debugging.
+
+Advance Decorator where we can pass inputs as positional and keyword argument
+Rendering HTMl how we render the HTML we serve using flask
+Parsing URL where we will be getting the URL passsed by users 
+
+Flask accepts html in return cluase which is called HTML rendering
+e.g return "<h1>Hello, World! Dave and Dad's Flask coding</h1>"
+
+@app.route("/")          # to show home page called python decorator 
+def hello_world():
+    return "<h1>Hello, World! Dave and Dad's Flask coding</h1>"
+
+
+
