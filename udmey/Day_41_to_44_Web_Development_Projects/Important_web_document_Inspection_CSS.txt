@@ -1,0 +1,15 @@
+CSS - Casacding Style sheets (style sheet is type of language like HTML)
+    - types SS are --SASS (syntically awesome style sheet
+                   --LESS (Leaner style sheet)
+
+HTML -is for content 
+CSS  - is for styling
+
+Need Chrome Browser
+
+appbrewery.github.io/just-add-css
+and press ctrl+shift+i
+
+and got inspect and change the font color etc.
+
+appbrewery.github.io/css-inspection

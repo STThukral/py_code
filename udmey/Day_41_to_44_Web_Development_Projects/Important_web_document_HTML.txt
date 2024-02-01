@@ -1,0 +1,205 @@
+HOW INTERNET works :-
+
+Client (i.e. our machine sends request to our ISP)
+ISP (Internet service provider) which further looks for DNS (Domain Name System) 
+DNS is like directory which looks for IP address we have given to search the site (for e.g www.google.com)
+Every single computer has ip address and request is send on that IP address
+
+we can got https://www.nslookup.io/ and type google.com to see the Ip address of google
+
+we will get below :-
+
+A records
+IPv4 address				Revalidate in
+Hosted by Google LLC  142.250.179.206	4m 8s
+
+IP address may change if we access it later as its assign it different every time
+
+Also we can goto https://www.submarinecablemap.com/ to check how these interenet cables are conencted under sea, concssisting the 100s of fibre optics wires, transfmetting 400 giga byte (GB) of data per second.
+
+HOW DO WEBSITE WORKS :-
+       HTML,CSS and Javascript do exactly
+
+       to access we internet we use browser (e or chrome)
+       HTML is like structure of website. (like we create structure of house)
+       we can create button,image or text box etc in HTML   
+       CSS is like  stylistic to code , like paining and decorating. HOw we want it to look
+       like we have got button through HTML but we want it to be red or text as blue
+       JAVA script , is basically provide it behaviour (like electrician providing lights in house or plumbing)
+       actually how page will behave.
+
+Installed Visual Studio
+and installed plugins :-
+      - Live Preview
+      - Prettier
+      - vscode-icons
+
+Installed Chrome 
+
+
+HTML :- is for contenet and strcuture for file. (hyper text markup language) 
+         Mark ups we do by html tags like italic, heading or body etc
+ 
+<h1> Hello World </h1>
+
+ h1 and /h1 are opening and closing tags
+ <h1> Hello World </h1> - complete is called element
+<h1> Hello World </h1> 
+<h2> Hello World </h2> 
+<h3> Hello World </h3> 
+<h4> Hello World </h4> 
+<h5> Hello World </h5>
+<h6> Hello World </h6> 
+
+There is no Html tag h7 .. html tags are uptill h6 i.e from h1- h6
+
+Its not good practice to have more than one h1. as its the top most
+if need another level of heading go for h2 onward
+Dont' skip levels like afetr h1 moved to h3 this is not right. from h1 move to h2.
+This will not break the website a we have to make it good practice so be in sequence
+
+For more references releasted to web pages develoepment for (HTMl,CSS or javascript)
+goto web page https://developer.mozilla.org/
+
+
+PARAGRAPH element :-
+-----------------
+<p> This is a paragraph </p>
+it seperates lines under tags and make it paragraph.
+
+lipsum.com
+baconipsum.com
+broipsum.com
+funny lorem ipsum
+
+
+VOID elements :-
+Header and paragraph are NON - VOID elements as they have got content in it
+e.g. <p> This is a paragraph.</p>
+
+Void elements where we are forbidden to put any content inside the tag
+e.g. <hr />  horizontal rule
+
+<p> This is a paragraph.</p>
+<hr />
+<p> This is a paragraph.</p>
+
+
+output :-
+
+<p> This is a paragraph.</p>
+____________________________
+
+<p> This is a paragraph.</p>
+
+
+break element <br /> :-
+break element is to seperate line in between paragraph like in poems etc. In same
+paragraph but diffrent line
+
+<p> This is a paragraph. <br />
+ This is a paragraph.</p>
+
+-- To check the difference do diffchecker.com
+
+we can write <hr /> or <hr>
+             <br /> or <br>
+but its always good to write it with forward slash so thta we can know. its void element not tags so better to use like <hr />
+
+
+
+https://www.rogerebert.com/ -- one of the biggest film critics
+
+
+HTML BOILER Plate :-
+-----------------
+
+<!DOCTYPE html> -- tells which version of file latest version is 5
+<html lang= "en"> -- language of text content and content will be between
+                     this and below closing tag
+   <head> 
+      <meta charset="UTF-8"> -- not visible to user , we define character set
+      <title> -- what title should be dsiaplayed for website e.g. google 
+   </head> 
+
+   <body>
+     content of website
+     e.g. <h1> Hello world! </h1>
+   </body>
+
+</html>
+
+-- Indent the code properly to make it understand
+-- In VS code ! and heading enter for the first selection this will create the header 
+   by itself . this works when we have created the website before with .html extension
+
+
+LIST ELEMENTS:-
+   order or unordered list
+
+    unordered list (ul , gives bullet points):-
+         <ul> 
+          <li>MIlk </li>  -- list item
+          <li>Eggs </li>  -- list item   
+          <li>Flour </li>  -- list item
+         </ul>
+
+   output :- ( no order is define)
+         . Milk
+         . Eggs
+         . Flour
+
+   ordered list (ol, gives numbering to list items):-
+         <ol> 
+          <li>MIlk </li>  -- list item
+          <li>Eggs </li>  -- list item   
+          <li>Flour </li>  -- list item
+         </ol>
+   
+    output :- (order is define)
+         1. Milk
+         2. Eggs
+         3. Flour
+
+
+Nesting and indentation :-
+ -- <li> </li>
+    <li> </li>
+        <ul> </ul>
+    <li> </li>   
+
+ANCHOR ELEMENTS :- ( Allows us to create Hyperlink)
+
+<a> This is a link </a>
+To put Hyper link in above statement we need hyper link in <a> with href="<link>"
+i.e.
+ <a href="http://www.google.com"> This is a link </a>
+<tag attribute = value> Content </tag>
+- we can have more than one attribute =Value in tag
+
+
+example to starting list from 5 instead of 1 which is by default
+answer is use start attribute in ol tag <ol  start = 5>
+
+<h1>My top 2 Favourite Websites</h1>
+<!-- Write your code below -->
+<ol  start = 5>
+  <li>
+    <a href="https://www.google.co.uk/""> This is google link </a>
+  </li> 
+  <li>
+   <a href="https://www.rightmove.co.uk/""> This is RightMove link </a>
+  </li> 
+</ol>
+
+
+IMAGE ELEMENTS :- Adding image to website
+<img src="url" />  -- tells what is the source of image
+NOTE :- there is in </img> closing tag its just />
+img tag dosent have text element so img tag has src with backslash 
+
+#https://picsum.photos/2000 give random picture just as place holder 2000 is size of photo
+
+<img src="https://picsum.photos/200" alt="forest at sunset"/>
+
+alt --> alt is alternate text description , for accessibilty for visual imapred users

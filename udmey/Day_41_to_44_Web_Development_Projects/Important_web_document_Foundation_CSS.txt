@@ -1,0 +1,163 @@
+CSS - Casacding Style sheets (style sheet is type of language like HTML)
+    - types SS are --SASS (syntically awesome style sheet
+                   --LESS (Leaner style sheet)
+
+HTML -is for content 
+CSS  - is for styling
+-- appbrewery.github.io/just-add-css
+
+
+-- 3 ways to adding CSS to HTMl
+   -- INLINE
+      <tag style="css"/>
+      -- Same line as a particular element
+                      --property--value--  
+      e.g <html style="background:blue">
+          </html>      ----value------
+   
+     -- only used in one line element, normally not used too much as for each element we need to define it every time. useful for testing    
+
+
+   -- INTERNAL
+      <style>css</style>
+      <html>
+          <head>
+              <style>
+                  html{                 -- selector, before curley braces
+                      background:red;
+                     }
+              </style>
+           </head>
+        </html>   
+       
+   -- in internal styles, if we are having multipage requirement then 
+   -- best option is external as internal starts and ends in <html> </html>
+   -- that for single page.
+
+
+
+
+
+   -- EXTERNAL
+     <link href="style.css"/>
+    -- External style sheet is defined externally and used in Html tag
+      
+      <html>
+          <head>
+              <link
+                  html{
+                      rel="stylesheet"  -- relationship (role of sheet)
+                      href="/style.css" -- location of style sheet
+                />
+           </head>
+        </html>
+
+       # we defined it externally in style.css and link in above <html>
+       # so style.css can be used in in multiple <html> tags i.e. pages
+       style.css 
+            html{
+                background:green;
+               }
+
+   INLINE   - when to target single element
+   INTERNAL - when we are targeting single page
+   EXTERNAL - when using external style sheet and can used in multiple webpages 
+              pages in 
+entire website
+            - mostly used in CSS styling
+
+
+-- CSS SELECTOR
+    - can create CSS rule using color:blue  i.e. property:value . this is what we discussed above.
+
+Element Selector :-
+   h1{
+       color:blue
+    }
+ Above applies to all elelents whi has got h1 tag
+
+ e.g. :-
+     index.html
+
+     <h2>Red</h2>
+     <h2>Green</h2>
+     <h2>Blue</h2>
+
+      style.css
+           h2{
+              color:red;
+             }
+    so above even in index.html we have got different color but using style.css
+    will chnage all h2 tags to RED in index.html
+
+
+   .red-heading{
+        color:red
+    }
+
+   Class is to grouping elements, below example is having class red-text
+
+     <h2 class ="red-text">Red</h2>          -- will be red
+     <h2>Green</h2>                          -- will be green  
+     <p>class ="red-text">Paragraph</p>      -- will be red
+
+      .red-text{
+              color:red;
+             }
+  
+
+ID SELECTOR:-
+  
+  #main{
+     color:red
+   }
+
+ same as class but difference is class selector can be applied to mutiple
+ element where main can be applied to single element in single html file.
+ Benefit is where class is same for all h2 elelents but by giving main
+to one h2 element it will behave different to generically deinfed class
+id's are unique class can be given to many elements
+
+
+  e.g :-
+     <h2 id ="main">Red</h2>          -- will be red
+     <h2>Green</h2>                   -- will be green  
+     <h2>Blue</h2>                   -- will be blue
+
+
+  #main{
+     color:red
+   }
+
+
+ATTRIBUTE SELCTOR :-
+   p[draggable]{
+          color:red   
+    }
+p is html element
+draggablle is attribute
+This means all paragraph elemenets to attribute draggable
+
+<p draggable="true"> Drag me</p>  -- will be red
+<p> Don't Drag me</p>             -- no color 
+<p> Don't Drag me</p>             -- no color
+
+Another way is 
+
+
+<p draggable="true"> Drag me</p>                    -- will be with no color
+<p draggable="false"> Don't Drag me</p>             -- red color as its false 
+<p draggable="false"> Don't Drag me</p>             -- red color as its false
+
+
+p[draggable="false"]{
+          color:red   
+    }
+
+UNIVERSAL SELECTOR :-
+    
+     *{
+        color:red
+      }
+
+ * - means select all , applies to all where style sheet is active.

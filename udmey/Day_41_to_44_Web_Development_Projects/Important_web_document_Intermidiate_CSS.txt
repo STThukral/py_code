@@ -1,0 +1,104 @@
+CSS - Casacding Style sheets (style sheet is type of language like HTML)
+    - types SS are --SASS (syntically awesome style sheet
+                   --LESS (Leaner style sheet)
+
+HTML -is for content 
+CSS  - is for styling
+
+COLOR PROPERTIES :-
+
+Below is for whole html so will be whole page and its background-color
+so background will be red
+
+html{
+   background-color:red
+}
+
+
+for h1 it's text color will be red
+h1{
+   color:blue
+}
+
+colorHunt.co (free tool with color pallets)
+where each color has color hexcode
+
+h1{
+ color:#5D3891
+}
+
+FONT PROPERTIES:-
+
+h1{
+  color:blue
+  font-weight:bold               
+  font-size:20px                 --using pixel size
+  font-family:sans-serif         -- 
+}
+
+.26mm (wide and tall) = 1/96th inch = 1px
+instead of pixels we can use points as well
+1px - pixels
+1pt - points
+
+.35mm = 1/72 of inch = 1pt (pt we use in word to describe font size of line)
+
+1em = lenght of m thus called m instead of em.
+      so if body has 20px then 1 em will be 20px where ever we defined
+                          thne 2 em will be 40px where ever we defined
+
+     i.e works according to the parent size
+1rem  - is the scaled size of root . this means it changes when root tags chnages i.e. <html> size changes.
+
+example below for em and rem :-
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Colors</title>
+  <style>
+    body {
+      background-color: antiquewhite;
+    }
+
+    h1 {
+      color: whitesmoke;
+      background-color: darkseagreen;
+    }
+
+    h2 {
+      color: #FAF8F1;
+      background-color: #C58940;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Hello</h1>
+  <h2>World</h2>
+</body>
+
+</html>
+
+for em we change the parent tag <body> and em chnages accordingly
+for rem we change the root tag i.e. <html> and rem changes accordingly
+
+its easy to keep track of rem as its is as per root level changes
+but with em if change the parent which can be mutltiple this can confuse
+which em is related to which parent.
+
+
+Font weight :-
+  normal bold           -- keywords
+  Lighter Bolder        -- Relative to parent lighter in -100 bolder in +100
+  Number                -- 100-900
+
+
+TEXT ALIGNMENT:-
+   
+h1{
+   text-align:center  --or left or right
+  }
+
+also got start (like starting from left to right /right to left)and end 

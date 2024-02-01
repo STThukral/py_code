@@ -1,0 +1,29 @@
+THE BOX MODEL :-
+  Margin,Padding and Border
+
+we can increase the box size as pixel or percentage
+we can make border :10px         solid    black
+                    ---------------------------
+                    thickness    style    color
+            border-top:0px;
+            this will make the top of box with no border
+            border-width : 0px 10px 20px 30px (goes clockwise in box)              
+
+Padding - it is adding space betweeen border and content in box
+
+Margin - is outside the border
+
+All the above Box model we see in CSS html source code when we click on
+Insepection.
+
+Example is go to below site and selection Inspect at the end :-
+
+https://appbrewery.github.io/box-model/ 
+
+we will see box at the end of page showing Margin,border and Padding etc.
+
+
+CONTENT DIVISION ELEMENTS :-
+   It is invisible box with <div> </div> tags
+
+PESTICIDE CHROME EXTENSION (to get rid of bugs from CSS)
